@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88c05a0-dc02-4848-b4c6-f7ccb3c8582a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout_demo/dynamic_layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textEdit/FileOptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textEdit/add_btn_get_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textEdit/mytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textEdit/textwidget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,25 +16,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout_demo/basiclayout.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/textEdit/mytest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="86" column="38" lean-forward="true" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
-              <folding>
-                <element signature="e#44#73#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/layout_demo/dynamic_layout.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout_demo/basiclayout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+            <state relative-caret-position="-1334">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <element signature="e#16#26#0" expanded="true" />
+                <element signature="e#44#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,6 +46,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_dict</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,12 +61,19 @@
         <option value="$PROJECT_DIR$/bright.py" />
         <option value="$PROJECT_DIR$/layout_demo/basiclayout.py" />
         <option value="$PROJECT_DIR$/layout_demo/dynamic_layout.py" />
+        <option value="$PROJECT_DIR$/layout_demo/flowlayout.py" />
+        <option value="$PROJECT_DIR$/textEdit/demo01.py" />
+        <option value="$PROJECT_DIR$/textEdit/textwidget.py" />
+        <option value="$PROJECT_DIR$/textEdit/add_btn_get_text.py" />
+        <option value="$PROJECT_DIR$/textEdit/iterator.py" />
+        <option value="$PROJECT_DIR$/textEdit/FileOptions.py" />
+        <option value="$PROJECT_DIR$/textEdit/mytest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="902" />
-    <option name="width" value="1025" />
+    <option name="x" value="873" />
+    <option name="width" value="1054" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -72,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,10 +96,16 @@
               <item name="qt" type="462c0819:PsiDirectoryNode" />
               <item name="layout_demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
+              <item name="textEdit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,8 +126,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dynamic_layout">
-    <configuration name="HBoxLayout_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mytest">
+    <configuration name="add_btn_get_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,12 +135,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/layout_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textEdit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/layout_demo/HBoxLayout_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textEdit/add_btn_get_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bright" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,12 +179,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textEdit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bright.py" />
+      <option name="SCRIPT_NAME" value="H:\software_develop\python\qt\textEdit\textwidget.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,12 +201,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/layout_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textEdit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/layout_demo/dynamic_layout.py" />
+      <option name="SCRIPT_NAME" value="H:\software_develop\python\qt\textEdit\FileOptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textEdit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textEdit/mytest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,10 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dynamic_layout" />
+        <item itemvalue="Python.mytest" />
         <item itemvalue="Python.basiclayout" />
-        <item itemvalue="Python.bright" />
-        <item itemvalue="Python.HBoxLayout_demo" />
+        <item itemvalue="Python.iterator" />
+        <item itemvalue="Python.add_btn_get_text" />
+        <item itemvalue="Python.demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -221,23 +261,25 @@
       <workItem from="1588071567336" duration="2376000" />
       <workItem from="1588161473025" duration="3436000" />
       <workItem from="1588207849612" duration="4355000" />
-      <workItem from="1588225427505" duration="7419000" />
+      <workItem from="1588225427505" duration="7770000" />
+      <workItem from="1588302690795" duration="4567000" />
+      <workItem from="1588467587659" duration="4394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18608000" />
+    <option name="totallyTimeSpent" value="27920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="902" y="0" width="1025" height="1087" extended-state="0" />
+    <frame x="873" y="0" width="1054" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1761658" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17706238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.254717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36477986" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,10 +324,14 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/qt$basiclayout.coverage" NAME="basiclayout Coverage Results" MODIFIED="1588212075194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/layout_demo" />
+    <SUITE FILE_PATH="coverage/qt$basiclayout.coverage" NAME="basiclayout Coverage Results" MODIFIED="1588471427253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/layout_demo" />
     <SUITE FILE_PATH="coverage/qt$dynamic_layout.coverage" NAME="dynamic_layout Coverage Results" MODIFIED="1588233729694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/layout_demo" />
+    <SUITE FILE_PATH="coverage/qt$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1588303881786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textEdit" />
+    <SUITE FILE_PATH="coverage/qt$add_btn_get_text.coverage" NAME="add_btn_get_text Coverage Results" MODIFIED="1588467615517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textEdit" />
     <SUITE FILE_PATH="coverage/qt$HBoxLayout_demo.coverage" NAME="HBoxLayout_demo Coverage Results" MODIFIED="1588072102610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/layout_demo" />
     <SUITE FILE_PATH="coverage/qt$bright.coverage" NAME="bright Coverage Results" MODIFIED="1588074185965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qt$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1588470647586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textEdit" />
+    <SUITE FILE_PATH="coverage/qt$mytest.coverage" NAME="mytest Coverage Results" MODIFIED="1588471639452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textEdit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/layout_demo/HBoxLayout_demo.py">
@@ -296,24 +342,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bright.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout_demo/basiclayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="86" column="38" lean-forward="true" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
-          <folding>
-            <element signature="e#44#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtWidgets/QGridLayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -328,20 +356,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtWidgets/QDialogButtonBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout_demo/dynamic_layout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+        <state relative-caret-position="394">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="e#16#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtWidgets/QLayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1238">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_demo/flowlayout.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtWidgets/QTextEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="486" column="8" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtCore/Qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="967" column="4" selection-start-line="967" selection-start-column="4" selection-end-line="967" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textEdit/add_btn_get_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="828" column="10" selection-start-line="828" selection-start-column="5" selection-end-line="828" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textEdit/111.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textEdit/FileOptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#76#708#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textEdit/textwidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1872460620/PySide2/QtWidgets/QDialogButtonBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="115" column="83" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="115" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_demo/basiclayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1334">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#44#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textEdit/mytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
